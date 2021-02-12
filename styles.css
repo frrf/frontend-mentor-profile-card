@@ -48,9 +48,39 @@ main {
     left: 50%;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    border: transparent solid;
+    width: fit-content;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    align-items: center;
+}
 
+.card__profile {
+    border: solid white 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 86px;
+}
 
+.card__profile img {
+    display: block;
+}
 
+.card__personal {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.personal__nameAge {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
